@@ -7,8 +7,7 @@
 /* HERO SECTION */
 
 .hero {
-  /* margin-top: -90px; */
-  padding-top: 16vh;
+  padding: 10vh;
   overflow: hidden;
   height: 100%;
   width: 100%;
@@ -21,6 +20,10 @@
   background-repeat: no-repeat;
   background-size: cover cover;
   position: relative;
+}
+
+.logo-img {
+  width: 350px;
 }
 
 h1 {
