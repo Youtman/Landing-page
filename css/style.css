@@ -73,7 +73,7 @@ h1 {
 
 /* FORM START */
 .form-control {
-  padding: 28px 10px;
+  /* padding: 28px 10px; */
 }
 /* FORM END */
 
@@ -197,6 +197,32 @@ h1 {
 
 /* FOOTER SECTION */
 
-.footer-bg {
-  background-image: url('../assets/');
+.footer-section {
+  background-color: #161f30;
+  background-image: url('../assets/footer-overlay.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  /* background-size: cover cover;
+  position: relative; */
+}
+
+.footer-heading {
+  text-transform: uppercase;
+  color: #12f2f2;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.footer-text {
+  color: #fff;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 300px;
+}
+
+.h-h-logo {
+  width: 260px;
 }
